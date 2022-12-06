@@ -136,6 +136,8 @@ namespace dpp {
 
 		iconhash::iconhash(const iconhash&) = default;
 
+		iconhash& iconhash::operator=(const iconhash&) = default;
+
 		iconhash::~iconhash() = default;
 
 		void iconhash::set(const std::string &hash) {

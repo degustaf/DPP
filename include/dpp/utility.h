@@ -134,6 +134,11 @@ namespace dpp {
 			iconhash(const iconhash&);
 
 			/**
+			 * @brief Copy construct a new iconhash object
+			 */
+			iconhash& operator=(const iconhash&);
+
+			/**
 			 * @brief Destroy the iconhash object
 			 */
 			~iconhash();
