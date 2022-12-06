@@ -457,8 +457,8 @@ guild& guild::fill_from_json(discord_client* shard, nlohmann::json* d) {
 		}
 		set_snowflake_not_null(d, "owner_id", this->owner_id);
 
-		this->flags |= bool_not_null(d, "large") ? dpp::g_large : 0;
-		this->flags |= bool_not_null(d, "widget_enabled") ? dpp::g_widget_enabled : 0;
+		this->flags |= bool_not_null(d, "large") ? dpp::g_large : (guild_flags)0;
+		this->flags |= bool_not_null(d, "widget_enabled") ? dpp::g_widget_enabled : (guild_flags)0;
 
 		this->flags_extra |= bool_not_null(d, "premium_progress_bar_enabled") ? dpp::g_premium_progress_bar_enabled : 0;
 

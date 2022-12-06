@@ -245,13 +245,13 @@ void from_json(const nlohmann::json& j, user& u) {
 
 	u.discriminator = (uint16_t)snowflake_not_null(&j, "discriminator");
 
-	u.flags |= bool_not_null(&j, "bot") ? dpp::u_bot : 0;
-	u.flags |= bool_not_null(&j, "system") ? dpp::u_system : 0;
-	u.flags |= bool_not_null(&j, "mfa_enabled") ? dpp::u_mfa_enabled : 0;
-	u.flags |= bool_not_null(&j, "verified") ? dpp::u_verified : 0;
-	u.flags |= int8_not_null(&j, "premium_type") == 1 ? dpp::u_nitro_classic : 0;
-	u.flags |= int8_not_null(&j, "premium_type") == 2 ? dpp::u_nitro_full : 0;
-	u.flags |= int8_not_null(&j, "premium_type") == 3 ? dpp::u_nitro_basic : 0;
+	u.flags |= bool_not_null(&j, "bot") ? dpp::u_bot : (user_flags)0;
+	u.flags |= bool_not_null(&j, "system") ? dpp::u_system : (user_flags)0;
+	u.flags |= bool_not_null(&j, "mfa_enabled") ? dpp::u_mfa_enabled : (user_flags)0;
+	u.flags |= bool_not_null(&j, "verified") ? dpp::u_verified : (user_flags)0;
+	u.flags |= int8_not_null(&j, "premium_type") == 1 ? dpp::u_nitro_classic : (user_flags)0;
+	u.flags |= int8_not_null(&j, "premium_type") == 2 ? dpp::u_nitro_full : (user_flags)0;
+	u.flags |= int8_not_null(&j, "premium_type") == 3 ? dpp::u_nitro_basic : (user_flags)0;
 	uint32_t flags = int32_not_null(&j, "flags");
 	flags |= int32_not_null(&j, "public_flags");
 	for (auto & flag : usermap) {
