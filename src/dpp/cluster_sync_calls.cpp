@@ -674,6 +674,6 @@ webhook cluster::get_webhook_with_token_sync(snowflake webhook_id, const std::st
 }
 
 
-};
+}
 
 /* End of auto-generated definitions */

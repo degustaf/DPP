@@ -45,4 +45,4 @@ void automod_rule_create::handle(discord_client* client, json &j, const std::str
 	}
 }
 
-}};
+}}

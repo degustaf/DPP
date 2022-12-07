@@ -209,4 +209,4 @@ template <typename T> std::string leading_zeroes(T i, size_t width)
   return stream.str();
 }
 
-};
+}

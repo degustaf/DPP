@@ -436,4 +436,4 @@ void commandhandler::thonk(command_source source, command_completion_event_t cal
 	thinking(source, callback);
 }
 
-};
+}

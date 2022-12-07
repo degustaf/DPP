@@ -45,4 +45,4 @@ void presence_update::handle(discord_client* client, json &j, const std::string 
 	}
 }
 
-}};
+}}

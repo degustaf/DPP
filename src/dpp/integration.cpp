@@ -139,4 +139,4 @@ connection& connection::fill_from_json(nlohmann::json* j) {
 }
 
 
-};
+}

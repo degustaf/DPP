@@ -634,4 +634,4 @@ ssl_client::~ssl_client()
 	}
 }
 
-};
+}

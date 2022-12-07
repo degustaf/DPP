@@ -580,4 +580,4 @@ channel_type channel::get_type() const {
 }
 
 
-};
+}

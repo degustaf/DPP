@@ -48,4 +48,4 @@ void guild_scheduled_event_user_add::handle(discord_client* client, json &j, con
 	}
 }
 
-}};
+}}

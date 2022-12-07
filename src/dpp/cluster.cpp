@@ -363,4 +363,4 @@ const shard_list& cluster::get_shards() {
 	return shards;
 }
 
-};
+}

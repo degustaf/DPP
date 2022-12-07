@@ -76,5 +76,5 @@ namespace dpp {
 			blue_green = 0x088F8F,
 			raspberry = 0xE30B5C,
 			scarlet_red = 0xFF2400;
-	};
-};
+	}
+}

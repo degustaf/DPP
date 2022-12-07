@@ -368,4 +368,4 @@ void from_json(const nlohmann::json& j, user_identified& u);
 /** A group of users */
 typedef std::unordered_map<snowflake, user> user_map;
 
-};
+}

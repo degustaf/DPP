@@ -381,4 +381,4 @@ public:
 /** A container of presences */
 typedef std::unordered_map<snowflake, presence> presence_map;
 
-};
+}

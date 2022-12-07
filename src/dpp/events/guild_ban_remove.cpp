@@ -49,4 +49,4 @@ void guild_ban_remove::handle(discord_client* client, json &j, const std::string
 	}
 }
 
-}};
+}}

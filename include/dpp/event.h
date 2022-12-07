@@ -24,7 +24,7 @@
 #include <dpp/nlohmann/json_fwd.hpp>
 
 #define event_decl(x,wstype) /** @brief Internal event handler for wstype websocket events. Called for each websocket message of this type. @internal */ \
-	class x : public event { public: virtual void handle(dpp::discord_client* client, nlohmann::json &j, const std::string &raw); };
+	class x : public event { public: virtual void handle(dpp::discord_client* client, nlohmann::json &j, const std::string &raw); }
 
 namespace dpp { 
 
@@ -148,4 +148,4 @@ event_decl(automod_rule_update, AUTO_MODERATION_RULE_UPDATE);
 event_decl(automod_rule_delete, AUTO_MODERATION_RULE_DELETE);
 event_decl(automod_rule_execute, AUTO_MODERATION_ACTION_EXECUTION);
 
-}};
+}}

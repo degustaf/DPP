@@ -35,4 +35,4 @@ void cluster::invite_get(const std::string &invitecode, command_completion_event
 	rest_request<invite>(this, API_PATH "/invites", utility::url_encode(invitecode) + "?with_counts=true&with_expiration=true", "", m_get, "", callback);
 }
 
-};
+}

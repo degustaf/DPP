@@ -52,4 +52,4 @@ void message_reaction_remove_emoji::handle(discord_client* client, json &j, cons
 
 }
 
-}};
+}}

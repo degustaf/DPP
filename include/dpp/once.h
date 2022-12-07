@@ -41,6 +41,6 @@ namespace dpp {
 	template <typename T> auto run_once() {
 		static auto called = false;
 		return !std::exchange(called, true);
-	};
+	}
 
-};
+}

@@ -69,5 +69,5 @@ auditlog& auditlog::fill_from_json(nlohmann::json* j) {
 	return *this;
 }
 
-};
+}
 

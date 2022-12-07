@@ -454,4 +454,4 @@ public:
 	bool is_globally_ratelimited() const;
 };
 
-};
+}

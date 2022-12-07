@@ -47,4 +47,4 @@ void webhooks_update::handle(discord_client* client, json &j, const std::string 
 	}
 }
 
-}};
+}}

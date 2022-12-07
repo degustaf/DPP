@@ -56,4 +56,4 @@ void thread_list_sync::handle(discord_client* client, json& j, const std::string
 		}
 	}
 }
-}};
+}}

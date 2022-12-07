@@ -52,4 +52,4 @@ void message_delete_bulk::handle(discord_client* client, json &j, const std::str
 
 }
 
-}};
+}}

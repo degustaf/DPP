@@ -72,4 +72,4 @@ interface StructGeneratorInterface
      * @param string $cppcontent Content to save
      */
     public function saveCpp(string $cppcontent): void;
-};
+}

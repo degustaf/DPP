@@ -359,4 +359,4 @@ void discord_client::handle_event(const std::string &event, json &j, const std::
 	}
 }
 
-};
+}

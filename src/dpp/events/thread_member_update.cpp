@@ -37,4 +37,4 @@ void thread_member_update::handle(discord_client* client, json& j, const std::st
 		client->creator->on_thread_member_update.call(tm);
 	}
 }
-}};
+}}

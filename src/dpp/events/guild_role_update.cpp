@@ -67,4 +67,4 @@ void guild_role_update::handle(discord_client* client, json &j, const std::strin
 	}
 }
 
-}};
+}}

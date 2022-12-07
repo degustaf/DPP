@@ -774,5 +774,5 @@ typedef std::unordered_map<snowflake, channel> channel_map;
  */
 typedef std::unordered_map<snowflake, thread> thread_map;
 
-};
+}
 

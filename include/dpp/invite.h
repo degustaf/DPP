@@ -107,4 +107,4 @@ public:
 /** A container of invites */
 typedef std::unordered_map<std::string, invite> invite_map;
 
-};
+}

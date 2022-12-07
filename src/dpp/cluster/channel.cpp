@@ -96,4 +96,4 @@ void cluster::channels_get(snowflake guild_id, command_completion_event_t callba
 	rest_request_list<channel>(this, API_PATH "/guilds", std::to_string(guild_id), "channels", m_get, "", callback);
 }
 
-};
+}

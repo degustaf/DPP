@@ -864,5 +864,5 @@ public:
 	std::string discover_ip();
 };
 
-};
+}
 

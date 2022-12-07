@@ -57,4 +57,4 @@ void thread_members_update::handle(discord_client* client, json& j, const std::s
 		}
 	}
 }
-}};
+}}

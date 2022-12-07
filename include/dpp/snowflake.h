@@ -178,7 +178,7 @@ public:
 	uint16_t get_increment() const;
 };
 
-};
+}
 
 template<>
 struct std::hash<dpp::snowflake>

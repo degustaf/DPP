@@ -71,4 +71,4 @@ void guild_role_delete::handle(discord_client* client, json &j, const std::strin
 	}
 }
 
-}};
+}}

@@ -211,4 +211,4 @@ public:
 	 auditlog& fill_from_json(nlohmann::json* j);
 };
 
-};
+}

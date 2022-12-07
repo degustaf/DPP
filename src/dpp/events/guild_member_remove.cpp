@@ -76,4 +76,4 @@ void guild_member_remove::handle(discord_client* client, json &j, const std::str
 	}
 }
 
-}};
+}}

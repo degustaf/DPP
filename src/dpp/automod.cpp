@@ -182,5 +182,5 @@ std::string automod_rule::build_json(bool with_id) const {
 	return j.dump();
 }
 
-};
+}
 

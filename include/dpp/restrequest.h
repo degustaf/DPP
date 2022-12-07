@@ -45,7 +45,7 @@ template<class T> inline void rest_request(dpp::cluster* c, const char* basepath
 			callback(confirmation_callback_t(c, T().fill_from_json(&j), http));
 		}
 	});
-};
+}
 
 /**
  * @brief Templated REST request helper to save on typing (specialised for message)
@@ -65,7 +65,7 @@ template<> inline void rest_request<message>(dpp::cluster* c, const char* basepa
 			callback(confirmation_callback_t(c, message(c).fill_from_json(&j), http));
 		}
 	});
-};
+}
 
 /**
  * @brief Templated REST request helper to save on typing (specialised for confirmation)
@@ -85,7 +85,7 @@ template<> inline void rest_request<confirmation>(dpp::cluster* c, const char* b
 			callback(confirmation_callback_t(c, confirmation(), http));
 		}
 	});
-};
+}
 
 /**
  * @brief Templated REST request helper to save on typing (for returned lists)
@@ -174,4 +174,4 @@ template<> inline void rest_request_list<voiceregion>(dpp::cluster* c, const cha
 }
 
 
-};
+}

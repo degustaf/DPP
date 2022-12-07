@@ -72,4 +72,4 @@ void guild_members_chunk::handle(discord_client* client, json &j, const std::str
 	}
 }
 
-}};
+}}

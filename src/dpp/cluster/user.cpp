@@ -91,4 +91,4 @@ void cluster::user_get(snowflake user_id, command_completion_event_t callback) {
 	rest_request<user_identified>(this, API_PATH "/users", std::to_string(user_id), "", m_get, "", callback);
 }
 
-};
+}

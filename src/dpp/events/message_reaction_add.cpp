@@ -54,4 +54,4 @@ void message_reaction_add::handle(discord_client* client, json &j, const std::st
 	}
 }
 
-}};
+}}

@@ -77,4 +77,4 @@ void guild_member_add::handle(discord_client* client, json &j, const std::string
 	}
 }
 
-}};
+}}

@@ -375,4 +375,4 @@ std::string role::get_icon_url(uint16_t size) const {
 }
 
 
-};
+}

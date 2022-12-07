@@ -49,4 +49,4 @@ void message_delete::handle(discord_client* client, json &j, const std::string &
 
 }
 
-}};
+}}

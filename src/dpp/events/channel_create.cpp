@@ -63,4 +63,4 @@ void channel_create::handle(discord_client* client, json &j, const std::string &
 	}
 }
 
-}};
+}}

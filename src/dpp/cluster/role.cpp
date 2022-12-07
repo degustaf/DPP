@@ -50,4 +50,4 @@ void cluster::roles_get(snowflake guild_id, command_completion_event_t callback)
 	rest_request_list<role>(this, API_PATH "/guilds", std::to_string(guild_id), "roles", m_get, "", callback);
 }
 
-};
+}

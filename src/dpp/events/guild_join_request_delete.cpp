@@ -46,4 +46,4 @@ void guild_join_request_delete::handle(class discord_client* client, json &j, co
 	}
 }
 
-}};
+}}

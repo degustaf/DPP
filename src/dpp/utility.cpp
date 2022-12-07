@@ -551,6 +551,6 @@ namespace dpp {
 				#endif
 			#endif
 		}
-    };
+    }
 
-};
+}

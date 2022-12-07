@@ -149,7 +149,7 @@ namespace dpp {
 		}
 	};
 
-};
+}
 
 /* template<> */
 /* struct std::coroutine_traits<void, const dpp::interaction_create_t&> { */

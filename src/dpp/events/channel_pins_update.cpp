@@ -51,4 +51,4 @@ void channel_pins_update::handle(discord_client* client, json &j, const std::str
 
 }
 
-}};
+}}

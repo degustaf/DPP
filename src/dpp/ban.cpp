@@ -44,5 +44,5 @@ std::string ban::build_json([[maybe_unused]] bool with_id) const {
 	return "{}";
 }
 
-};
+}
 

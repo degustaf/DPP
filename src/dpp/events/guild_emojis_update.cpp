@@ -71,4 +71,4 @@ void guild_emojis_update::handle(discord_client* client, json &j, const std::str
 	}
 }
 
-}};
+}}

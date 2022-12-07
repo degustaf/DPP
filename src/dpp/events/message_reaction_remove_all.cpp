@@ -50,4 +50,4 @@ void message_reaction_remove_all::handle(discord_client* client, json &j, const 
 	}
 }
 
-}};
+}}

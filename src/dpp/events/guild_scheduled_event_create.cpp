@@ -47,4 +47,4 @@ void guild_scheduled_event_create::handle(discord_client* client, json &j, const
 	}
 }
 
-}};
+}}

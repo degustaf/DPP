@@ -175,4 +175,4 @@ void cluster::interaction_followup_get(const std::string &token, snowflake messa
 	rest_request<message>(this, API_PATH "/webhooks",std::to_string(me.id), utility::url_encode(token) + "/messages/" + std::to_string(message_id), m_get, "", callback);
 }
 
-};
+}

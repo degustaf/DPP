@@ -1205,4 +1205,4 @@ typedef std::unordered_map<snowflake, slashcommand> slashcommand_map;
  */
 typedef std::unordered_map<snowflake, guild_command_permissions> guild_command_permissions_map;
 
-};
+}

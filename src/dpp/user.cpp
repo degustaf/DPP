@@ -261,4 +261,4 @@ void from_json(const nlohmann::json& j, user& u) {
 	}
 }
 
-};
+}

@@ -129,7 +129,7 @@ public:
 		name & operator = (const name &) = default; \
 		name & operator = (name&&) = default; \
 		[[nodiscard]] const char* what() const noexcept override { return msg.c_str(); }; \
-	};
+	}
 #endif
 
 #ifdef _DOXYGEN_
@@ -197,5 +197,5 @@ public:
 	derived_exception(cache_exception, exception);
 #endif
 
-};
+}
 

@@ -47,4 +47,4 @@ void integration_create::handle(discord_client* client, json &j, const std::stri
 	}
 }
 
-}};
+}}

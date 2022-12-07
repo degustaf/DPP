@@ -45,4 +45,4 @@ void logger::handle(discord_client* client, [[maybe_unused]] json &j, const std:
 	}
 }
 
-}};
+}}

@@ -46,4 +46,4 @@ void stage_instance_delete::handle(discord_client* client, json &j, const std::s
 	}
 }
 
-}};
+}}

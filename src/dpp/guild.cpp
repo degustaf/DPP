@@ -821,4 +821,4 @@ guild_member find_guild_member(const snowflake guild_id, const snowflake user_id
 }
 
 
-};
+}

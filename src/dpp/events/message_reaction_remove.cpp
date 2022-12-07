@@ -53,4 +53,4 @@ void message_reaction_remove::handle(discord_client* client, json &j, const std:
 	}
 }
 
-}};
+}}

@@ -48,4 +48,4 @@ void message_create::handle(discord_client* client, json &j, const std::string &
 	}
 }
 
-}};
+}}
