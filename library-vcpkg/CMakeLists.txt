@@ -21,8 +21,8 @@ target_compile_definitions(
 target_compile_options(
 	"${LIB_NAME}" PUBLIC
 	"$<$<PLATFORM_ID:Windows>:/bigobj>"
-	"$<$<PLATFORM_ID:Linux>:$<$<CONFIG:Debug>:-std=c++17;-Wall;-Wextra;-Werror;-pedantic;-Wno-psabi;-pthread;-g;-Og;-fPIC>>"
-	"$<$<PLATFORM_ID:Linux>:$<$<CONFIG:Release>:-std=c++17;-Wall;-Wextra;-Werror;-pedantic;-Wno-psabi;-pthread;-O3;-fPIC>>"
+	"$<$<PLATFORM_ID:Linux>:$<$<CONFIG:Debug>:-std=c++17;-Wall;-Wextra;-Werror;-Wno-psabi;-pthread;-g;-Og;-fPIC>>"
+	"$<$<PLATFORM_ID:Linux>:$<$<CONFIG:Release>:-std=c++17;-Wall;-Wextra;-Werror;-Wno-psabi;-pthread;-O3;-fPIC>>"
 )
 
 target_compile_features(
